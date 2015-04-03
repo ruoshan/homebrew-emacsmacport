@@ -1,8 +1,12 @@
 # Homebrew-emacsmacport
+
+use the https://github.com/emacs-tw/emacs-mac-mirror as source. the original one
+is so hard to reach for me.
+
 ### Usage
 ##### Enable:
 ```
-brew tap railwaycat/emacsmacport
+brew tap ruoshan/emacsmacport
 ```
 
 ##### Install:
@@ -16,13 +20,8 @@ Note: Prepending `{brew --prefix}/share/info` to your `INFOPATH` is suggested to
 export INFOPATH='/usr/local/share/info:/usr/share/info'
 ```
 
-If you use [cask](http://caskroom.io/), run:
-
-```
-brew cask install emacs-mac
-```
 
 ##### Disable:
 ```
-brew untap railwaycat/emacsmacport
+brew untap ruoshan/emacsmacport
 ```
